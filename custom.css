@@ -1,0 +1,80 @@
+body{
+    background-image: url(bg.jpg); 
+}
+.pozadina{
+    width: 100%;
+    height: 90dvh;
+    background-color: rgba(255, 255, 255, 0.203);
+    padding-top: 3%;
+}
+.Order{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.822);
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+}
+.Order hr{
+    border: 1px solid white;
+    opacity: 100%;
+    width: 100%;
+    margin-top: 0.5%;
+}
+.Order #btn{
+    color: black;
+    padding-left: 9%;
+    padding-right: 9%;
+    border: solid 2px black;
+}
+.Order .bi{
+    font-size: 18px;
+}
+.Describe{
+    padding-top: 2%;
+    font-size: 22px;
+    text-align: start;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: solid 2px black;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 5%;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: rgba(255, 255, 255, 0.817);
+}
+textarea{
+    border-radius: 8px;
+}
+.imgMail{
+    width: 29%;
+}
+.pC{
+    font-size: 22px;
+}
+.tel{
+    margin-right: 37%;
+    padding-top: 2%;
+}
